@@ -1,128 +1,159 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyPlace</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MyPlace</title>
+    <!-- Chamada da CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-  <!-- Chamada da CSS -->
-  <link rel="stylesheet" href="./css/styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+  <body>
+    <!------------------- header e hero ------------------->
+    <div class="container">
+      <header class="header-page">
+        <h1><span class="span-logo">My</span>Place</h1>
 
-<body>
-  <!------------------- header e hero ------------------->
-  <div class="container">
-    <header class="header-page">
-      <h1><span class="span-logo">My</span>Place</h1>
-
-      <nav>
-        <ul>
-          <li><a href="#tours">Tours</a></li>
-          <li><a href="#gastronomia">Gastronomia</a></li>
-          <li><a href="#suites">Suites</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-      </nav>
-    </header>
+        <nav>
+          <ul>
+            <li><a href="#tours">Tours</a></li>
+            <li><a href="#gastronomia">Gastronomia</a></li>
+            <li><a href="#suites">Suites</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- hero -->
+      <div class="hero">
+        <h2>O MyPlace é exatamente assim...</h2>
+        <h3>Simplesmente maravilhoso!</h3>
+        <a href="" class="btn">MAIS INFORMAÇOES</a>
+      </div>
+      <!-- fim hero -->
+    </div>
+    <!------------------- fim header e hero ---------------->
     <!-- hero -->
-    <div class="hero">
-      <h2>O MyPlace é exatamente assim...</h2>
-      <h3>Simplesmente maravilhoso!</h3>
-      <a href="" class="btn">MAIS INFORMAÇOES</a>
-    </div>
+    <section class="cards" id="tours">
+      <h2>Faça um tour pelas montanhas</h2>
+      <div class="cards-list">
+        <!-- 1o. card -->
+        <div class="card-item">
+          <img
+            src="./images/pexels-francesco-ungaro-2835436.jpg"
+            alt="Imagem da Montanha ABCD"
+          />
+          <h3>Lorem ipsum dolor</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+            debitis, excepturi iste quod nihil voluptas.
+          </p>
+          <a href="" class="btn">Veja mais</a>
+        </div>
+        <!-- Fim 1o. card -->
+        <!-- 2o. card -->
+        <div class="card-item">
+          <img
+            src="./images/pexels-roberto-shumski-5555192.jpg"
+            alt="Imagem da Montanha EFGH"
+          />
+          <h3>Lorem ipsum dolor</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+            debitis, excepturi iste quod nihil voluptas.
+          </p>
+          <a href="" class="btn">Veja mais</a>
+        </div>
+        <!-- Fim 2o. card -->
+        <!-- 3o. card -->
+        <div class="card-item">
+          <img
+            src="./images/pexels-stefan-stefancik-91216.jpg"
+            alt="Imagem da Montanha IJKL"
+          />
+          <h3>Lorem ipsum dolor</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+            debitis, excepturi iste quod nihil voluptas.
+          </p>
+          <a href="" class="btn">Veja mais</a>
+        </div>
+        <!-- Fim 3o. card -->
+        <!-- 4o. card -->
+        <div class="card-item">
+          <img
+            src="./images/pexels-stein-egil-liland-5704789.jpg"
+            alt="Imagem da Montanha MNOP"
+          />
+          <h3>Lorem ipsum dolor</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+            debitis, excepturi iste quod nihil voluptas.
+          </p>
+          <a href="" class="btn">Veja mais</a>
+        </div>
+        <!-- Fim 4o. card -->
+        <!-- 5o. card -->
+        <div class="card-item">
+          <img
+            src="./images/pexels-tobias-bj¢rkli-1693085.jpg"
+            alt="Imagem da Montanha QRST"
+          />
+          <h3>Lorem ipsum dolor</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+            debitis, excepturi iste quod nihil voluptas.
+          </p>
+          <a href="" class="btn">Veja mais</a>
+        </div>
+        <!-- Fim 5o. card -->
+        <!-- 6o. card -->
+        <div class="card-item">
+          <img
+            src="./images/pexels-tuomas-haapala-7223461.jpg"
+            alt="Imagem da Montanha UVWX"
+          />
+          <h3>Lorem ipsum dolor</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+            debitis, excepturi iste quod nihil voluptas.
+          </p>
+          <a href="" class="btn">Veja mais</a>
+        </div>
+        <!-- Fim 6o. card -->
+      </div>
+    </section>
     <!-- fim hero -->
-  </div>
-  <!------------------- fim header e hero ---------------->
-  <!-- hero -->
-  <section class="cards" id="tours">
-    <h2>Faça um tour pelas montanhas</h2>
-    <div class="cards-list">
-      <!-- 1o. card -->
-      <div class="card-item">
-        <img src="../images/pexels-francesco-ungaro-2835436.jpg" alt="Imagem da Montanha ABCD">
-        <h3>Lorem ipsum dolor</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo debitis, excepturi iste quod nihil voluptas.
-        </p>
-        <a href="" class="btn">Veja mais</a>
-      </div>
-      <!-- Fim 1o. card -->
-      <!-- 2o. card -->
-      <div class="card-item">
-        <img src="../images/pexels-roberto-shumski-5555192.jpg" alt="Imagem da Montanha EFGH">
-        <h3>Lorem ipsum dolor</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo debitis, excepturi iste quod nihil voluptas.
-        </p>
-        <a href="" class="btn">Veja mais</a>
-      </div>
-      <!-- Fim 2o. card -->
-      <!-- 3o. card -->
-      <div class="card-item">
-        <img src="../images/pexels-stefan-stefancik-91216.jpg" alt="Imagem da Montanha IJKL">
-        <h3>Lorem ipsum dolor</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo debitis, excepturi iste quod nihil voluptas.
-        </p>
-        <a href="" class="btn">Veja mais</a>
-      </div>
-      <!-- Fim 3o. card -->
-      <!-- 4o. card -->
-      <div class="card-item">
-        <img src="../images/pexels-stein-egil-liland-5704789.jpg" alt="Imagem da Montanha MNOP">
-        <h3>Lorem ipsum dolor</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo debitis, excepturi iste quod nihil voluptas.
-        </p>
-        <a href="" class="btn">Veja mais</a>
-      </div>
-      <!-- Fim 4o. card -->
-      <!-- 5o. card -->
-      <div class="card-item">
-        <img src="../images/pexels-tobias-bj¢rkli-1693085.jpg" alt="Imagem da Montanha QRST">
-        <h3>Lorem ipsum dolor</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo debitis, excepturi iste quod nihil voluptas.
-        </p>
-        <a href="" class="btn">Veja mais</a>
-      </div>
-      <!-- Fim 5o. card -->
-      <!-- 6o. card -->
-      <div class="card-item">
-        <img src="../images/pexels-tuomas-haapala-7223461.jpg" alt="Imagem da Montanha UVWX">
-        <h3>Lorem ipsum dolor</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo debitis, excepturi iste quod nihil voluptas.
-        </p>
-        <a href="" class="btn">Veja mais</a>
-      </div>
-      <!-- Fim 6o. card -->
-    </div>
-  </section>
-  <!-- fim hero -->
 
-  <section class="gastronomia box" id="gastronomia">
-    <h2>Gastronomia</h2>
-    <a href="./curriculum.txt" download class="btn">Baixar cardápio</a>
-  </section>
-  <section class="suites box" id="suites">
-    <h2>Suítes</h2>
-    <a href="tel:1199999999" class="btn">Ligar para o MyPlace</a>
-  </section>
-  <section class="contato box" id="contato">
-    <h2>Contato</h2>
-    <div class="social">
-      <i class="fa-brands fa-instagram"></i>
-      <i class="fa-brands fa-discord"></i>
-      <i class="fa-brands fa-x-twitter"></i>
-      <i class="fa-brands fa-youtube"></i>
-    </div>
-  </section>
-
-
-</body>
-
+    <section class="gastronomia box" id="gastronomia">
+      <h2>Gastronomia</h2>
+      <a href="./curriculum.txt" download class="btn">Baixar cardápio</a>
+    </section>
+    <section class="suites box" id="suites">
+      <h2>Suítes</h2>
+      <a href="tel:1199999999" class="btn">Ligar para o MyPlace</a>
+    </section>
+    <section class="contato box" id="contato">
+      <h2>Contato</h2>
+      <div class="social">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-discord"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </div>
+    </section>
+  </body>
 </html>
